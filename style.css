@@ -1,0 +1,176 @@
+/* CSS Reset & Global Styles */
+
+* {
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0;
+
+    font-family: "Brush Script MT", ;
+
+    font-weight: bold;
+
+}
+
+::placeholder {
+
+    color: rgb(221, 221, 221);
+
+    opacity: 2;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 1.5%;
+
+    color: #fff;
+
+}
+
+.container {
+
+    width: 300px;
+
+}
+
+.result {
+
+    width: 59.1%;
+
+}
+
+input {
+
+    padding: 25px;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 1em;
+
+    cursor: pointer;
+
+    width: 70px;
+
+    background-color: rgb(47, 51, 50);
+
+    border: none;
+
+    outline: none;
+
+    border-radius: 4px;
+
+}
+
+.row {
+
+    margin-bottom: 3px;
+
+}
+
+input[type="text"] {
+
+    background-color: rgb(224, 185, 209);
+
+    width: 218px;
+
+}
+
+input[type="button"]:hover {
+
+    background-color: rgb(236, 197, 197);
+
+    color: #fff;
+
+}
+
+button {
+
+    border:none;
+
+    background-color: rgb(236, 197, 197);
+
+    padding: 8px;
+
+    color: rgb(216, 205, 205);
+
+    margin: 2px;
+
+    cursor: pointer;
+
+    outline: none;
+
+    border-radius: 1px;
+
+    font-size: 8;
+
+    font-weight: 200;
+
+}
+
+.clear-button {
+
+    color: #1b0000;
+
+    background-color: rgb(104, 160, 155);
+
+    width: 97.5%;
+
+}
+
+a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    border: none;
+
+    background-color: rgb(58, 54, 54);
+
+    padding: 8px;
+
+    color: white;
+
+    margin: 2px;
+
+    border-radius: 4px;
+
+    font-size: 0.8em;
+
+    font-weight: 200;
+
+}
+
+.bottom-buttons {
+
+    display: flex;
+
+    margin-left: -2.3px;
+
+}
+
+.fab {
+
+    font-size: 1.1em;
+
+}
+body {
+    background-image: url("bloom.jpg");
+    height: 100%;
+    
+        width: 100%;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        flex-direction: column;
+    
+        align-items: center;
+        transition: 0.8s all;
+}
